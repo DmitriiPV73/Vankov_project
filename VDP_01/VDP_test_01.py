@@ -10,6 +10,9 @@
 #else:
 #    print("Number is not multiple 7")
 
+
+
+
 #x=input("Введите число 1: ")
 #y=input("Введите число 2: ")
 #if x>y:
