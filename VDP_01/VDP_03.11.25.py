@@ -1,25 +1,21 @@
 # Задание 1
 
-# a=int(input("Ввести целое шестизначное число: "))
-# c=a
-# count=0
-# while c != 0:
-#     c//=10
-#     count +=1
-#
-# if count != 6:
-#    print("Ошибка ввода")
-# else:
-#     b1=a//100000
-#     b2=(a%100000)//10000
-#     b3=(a%10000)//1000
-#     b4=(a%1000)//100
-#     b5=(a%100)//10
-#     b6=a%10
-#     if b1+b2+b3 == b4+b5+b6:
-#         print("Счастливое число",a)
-#     else:
-#         print("Несчастливое число",a)
+a=int(input("Ввести целое шестизначное число: "))
+
+c=a//100000
+if c==0 or c>9:
+    print("Ошибка ввода")
+else:
+    b1=a//100000
+    b2=(a%100000)//10000
+    b3=(a%10000)//1000
+    b4=(a%1000)//100
+    b5=(a%100)//10
+    b6=a%10
+    if b1+b2+b3 == b4+b5+b6:
+        print("Счастливое число",a)
+    else:
+        print("Несчастливое число",a)
 
 # Задание 2
 
@@ -50,14 +46,14 @@
 
 # Задание 3
 
-a=int(input("Ввести номер месяца: "))
-if 3<=a<=5:
-    print("Spring")
-elif 6<=a<=8:
-    print("Summer")
-elif 9<=a<=11:
-    print("Autumn")
-elif a==1 or a==2 or a==12:
-    print("Winter")
-else:
-    print("Ошибка ввода")
+# a=int(input("Ввести номер месяца: "))
+# if 3<=a<=5:
+#     print("Spring")
+# elif 6<=a<=8:
+#     print("Summer")
+# elif 9<=a<=11:
+#     print("Autumn")
+# elif a==1 or a==2 or a==12:
+#     print("Winter")
+# else:
+#     print("Ошибка ввода")
