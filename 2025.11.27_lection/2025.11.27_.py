@@ -1,5 +1,4 @@
 # Задание 1
-import random
 
 # import re
 # action =input("введи выражение типа 23 + 12:  ")
@@ -28,8 +27,8 @@ import random
 # Задание 2
 
 
-#list= [1,-5,0,6,0,23]
-list=[random.randint(1,10)for _ in range(10)]
+import random
+list=[random.randint(-10,10)for _ in range(10)]
 print(list)
 def list_function():
     list_min=min(list)
